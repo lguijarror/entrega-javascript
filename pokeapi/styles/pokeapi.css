@@ -1,0 +1,154 @@
+body {
+  background-color: #a7b9d3;
+  margin: 0;
+  font-family: rubik;
+  color: white;
+}
+
+.container {
+  padding: 40px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 54px;
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  list-style: none;
+  padding: 40px;
+  background-color: #f4f4f4;
+  color: #222;
+  text-align: center;
+  border: 5px solid #2d2c93;
+  border-radius: 10px;
+}
+
+.card-id,
+.card-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.card-subtitle {
+  font-weight: lighter;
+  color: #666;
+  margin-top: 10px;
+}
+
+.type {
+  color: #fff;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px 10px;
+
+}
+
+.bug {
+  background-color: #a6b91a;
+}
+
+.dragon {
+  background-color: #6f35fc;
+}
+
+.electric {
+  background-color: #f7d02c;
+}
+
+.fairy {
+  background-color: #d685ad;
+}
+
+.fighting {
+  background-color: #c22e28;
+}
+
+.fire {
+  background-color: #ee8130;
+}
+
+.flying {
+  background-color: #a98ff3;
+}
+
+.ghost {
+  background-color: #735797;
+}
+
+.grass {
+  background-color: #7ac74c;
+}
+
+.ground {
+  background-color: #e2bf65;
+}
+
+.ice {
+  background-color: #96d9d6;
+}
+
+.normal {
+  background-color: #a8a77a;
+}
+
+.poison {
+  background-color: #a33ea1;
+}
+
+.psychic {
+  background-color: #f95587;
+}
+
+.rock {
+  background-color: #b6a136;
+}
+
+.steel {
+  background-color: #b7b7ce;
+}
+
+.water {
+  background-color: #6390f0;
+}
+
+.card-image {
+  height: 180px;
+}
+
+#pokedex {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+
+  40% {
+    transform: translateY(0px);
+  }
+
+  60% {
+    transform: translateY(-2px);
+  }
+
+  80% {
+    transform: translateY(-0px);
+  }
+}

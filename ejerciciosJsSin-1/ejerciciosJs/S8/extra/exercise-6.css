@@ -1,0 +1,42 @@
+.c-characters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-characters__item {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+img {
+    height: 380px;
+    max-width: 100%;
+}
+
+.selected:nth-of-type(1) {
+    border: 4px solid red;
+}
+
+.selected:nth-of-type(2) {
+    border: 4px solid blue;
+}
+
+.bnt-container {
+    display: flex;
+    padding: 20px;
+}
+
+.btn-fight {
+    background-color: #000;
+    border: 3px solid #ccc;
+    color: #fff;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+
+}
